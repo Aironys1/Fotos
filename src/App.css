@@ -1,15 +1,48 @@
+body{
+  background-color: #dcdcf8;
+ 
+}
+
+h1{
+  color: rgb(3, 97, 35);
+  font-weight: bold;
+  font-size:2rem;
+}
+p{
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #3e5156;
+}
+
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
+.App img {
   height: 40vmin;
   pointer-events: none;
+  border-radius:20px;
+  border: 5px solid rgb(1, 108, 129);
+
 }
 
+
+
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App img {
+    animation: App-logo-spin infinite 30s linear ;
+    border: 5px solid rgb(1, 108, 129);
+  }
+  .App .img2 {
+    animation: App-logo-spin infinite 30s linear reverse ;
+    border: 5px solid rgb(9, 198, 235);
+    margin-top: 50px;
+    width: 80%;
+    height:220px;
   }
 }
 
